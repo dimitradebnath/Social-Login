@@ -1,0 +1,17 @@
+/home/bridgeit/Documents/workspace/MVCSPring/src/main/java/com/dddd/validation/UserValidator.java
+/home/bridgeit/Documents/workspace/MVCSPring/src/main/java/com/dddd/social/Gmail.java
+/home/bridgeit/Documents/workspace/MVCSPring/src/main/java/com/dddd/model/GmailName.java
+/home/bridgeit/Documents/workspace/MVCSPring/src/main/java/com/dddd/dao/Userdao.java
+/home/bridgeit/Documents/workspace/MVCSPring/src/main/java/com/dddd/model/Login.java
+/home/bridgeit/Documents/workspace/MVCSPring/src/main/java/com/dddd/services/SendMail.java
+/home/bridgeit/Documents/workspace/MVCSPring/src/main/java/com/dddd/controller/UserController.java
+/home/bridgeit/Documents/workspace/MVCSPring/src/main/java/com/dddd/model/GmailToken.java
+/home/bridgeit/Documents/workspace/MVCSPring/src/main/java/com/dddd/model/User.java
+/home/bridgeit/Documents/workspace/MVCSPring/src/main/java/com/dddd/model/GmailProfile.java
+/home/bridgeit/Documents/workspace/MVCSPring/src/main/java/com/dddd/controller/LoginController.java
+/home/bridgeit/Documents/workspace/MVCSPring/src/main/java/com/dddd/utility/MyBatisUtill.java
+/home/bridgeit/Documents/workspace/MVCSPring/src/main/java/com/dddd/dao/UserdaoImpl.java
+/home/bridgeit/Documents/workspace/MVCSPring/src/main/java/com/dddd/model/Otpgenerator.java
+/home/bridgeit/Documents/workspace/MVCSPring/src/main/java/com/dddd/controller/ForgotPasswordController.java
+/home/bridgeit/Documents/workspace/MVCSPring/src/main/java/com/dddd/services/UserServices.java
+/home/bridgeit/Documents/workspace/MVCSPring/src/main/java/com/dddd/model/GmailEmails.java

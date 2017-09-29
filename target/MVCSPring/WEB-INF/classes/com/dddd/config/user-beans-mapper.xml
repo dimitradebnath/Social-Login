@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="com.dddd.dao.Userdao">
+
+	<select id="validateUser" parameterType="Login" resultType="User">
+		SELECT userid as userid,
+		emailid,
+		password as password,
+		firstname as
+		firstname,
+		lastname as lastname
+		FROM users
+		WHERE username=#{username} AND password=#{password}
+	</select>
+	<insert id="register" parameterType="User" useGeneratedKeys="true"
+		keyProperty="userId">
+		INSERT INTO
+		users(username,password,emailid,firstname,lastname)
+		VALUES(#{username},#{password},#{emailid},#{firstname},#{lastname})
+	</insert>
+
+</mapper>

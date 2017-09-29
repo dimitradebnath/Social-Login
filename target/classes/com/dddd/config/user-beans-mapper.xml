@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dddd.dao.Userdao">
+
+	<select id="validateUser" parameterType="Login" resultType="User">
+		SELECT username,emailid,password,firstname,lastname
+		FROM Users
+		WHERE
+		username=#{username} AND password=#{password}
+	</select>
+	<insert id="register" parameterType="User" useGeneratedKeys="true"
+		keyProperty="userId">
+		INSERT INTO
+		Users(username,password,emailid,firstname,lastname)
+		VALUES(#{username},#{password},#{Email},#{firstname},#{lastname})
+	</insert>
+	<select id="validateUsername" parameterType="String" resultType="String">
+		SELECT emailid
+		FROM Users
+		WHERE username=#{username}
+	</select>
+	<update id="updatePassword" parameterType="String">
+		UPDATE Users
+		SET password=#{0}
+		WHERE username=#{1}
+
+	</update>
+	<select id="getUserByEmailId" parameterType="String" resultType="User">
+SELECT username,emailid,password,firstname,lastname
+		FROM Users
+		WHERE
+		emailid=#{Email}
+	</select>
+	<insert id="googleRegister" parameterType="User" useGeneratedKeys="true"
+		keyProperty="userId">
+		INSERT INTO
+		Google(emailid,firstname,lastname)
+		VALUES(#{Email},#{firstname},#{lastname})
+	</insert>
+
+</mapper>
